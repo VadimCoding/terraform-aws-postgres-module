@@ -26,6 +26,14 @@ module "rds-postgres" {
 
 }
 ```
+
+## Features
+Currently this module deploys a standalone Postgres instance with:
+- a randomly generated password,
+- storage auto-scaling (using *alloacted_storage* and *max_allocated_storage*)
+- customization of the retention period
+- customization of the backup window
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -87,3 +95,4 @@ No modules.
 | <a name="output_instance_port"></a> [instance\_port](#output\_instance\_port) | n/a |
 | <a name="output_instance_status"></a> [instance\_status](#output\_instance\_status) | n/a |
 <!-- END_TF_DOCS -->
+
