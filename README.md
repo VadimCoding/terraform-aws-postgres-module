@@ -43,8 +43,8 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.26.0 |
-| <a name="provider_random"></a> [random](#provider\_random) | 3.3.2 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_random"></a> [random](#provider\_random) | n/a |
 
 ## Modules
 
@@ -86,13 +86,13 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_instance_address"></a> [instance\_address](#output\_instance\_address) | n/a |
-| <a name="output_instance_arn"></a> [instance\_arn](#output\_instance\_arn) | n/a |
-| <a name="output_instance_db_name"></a> [instance\_db\_name](#output\_instance\_db\_name) | n/a |
-| <a name="output_instance_endpoint"></a> [instance\_endpoint](#output\_instance\_endpoint) | n/a |
-| <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | n/a |
-| <a name="output_instance_name"></a> [instance\_name](#output\_instance\_name) | n/a |
-| <a name="output_instance_port"></a> [instance\_port](#output\_instance\_port) | n/a |
-| <a name="output_instance_status"></a> [instance\_status](#output\_instance\_status) | n/a |
+| <a name="output_instance_address"></a> [instance\_address](#output\_instance\_address) | The address to access the instance. |
+| <a name="output_instance_arn"></a> [instance\_arn](#output\_instance\_arn) | The ARN of the db instance resource. |
+| <a name="output_instance_db_name"></a> [instance\_db\_name](#output\_instance\_db\_name) | The name of the database created on the instance. |
+| <a name="output_instance_endpoint"></a> [instance\_endpoint](#output\_instance\_endpoint) | The endpoint to access to db instance. |
+| <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | The id of the instance. |
+| <a name="output_instance_name"></a> [instance\_name](#output\_instance\_name) | The name of the instance. |
+| <a name="output_instance_port"></a> [instance\_port](#output\_instance\_port) | The port to access the instance. |
+| <a name="output_instance_status"></a> [instance\_status](#output\_instance\_status) | The status of the instance. |
 <!-- END_TF_DOCS -->
 
