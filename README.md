@@ -2,7 +2,7 @@
 Terraform module which deploy an RDS instance running Postgres as database engine.
 
 ## Usage
-```json
+```tf
 module "rds-postgres" {
   source = "github.com/VadimCoding/terraform-aws-postgres-module"
 
