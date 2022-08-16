@@ -1,3 +1,31 @@
+# AWS Postgres (RDS) Terraform module
+Terraform module which deploy an RDS instance running Postgres as database engine.
+
+## Usage
+```json
+module "rds-postgres" {
+  source = "github.com/VadimCoding/terraform-aws-postgres-module"
+
+  engine_version = "13.4"
+  instance_class = "db.t3.micro"
+  instance_name  = "my-db-instance1"
+
+  db_name = "my_db"
+
+  username = "admin"
+
+  allocated_storage     = 10
+  max_allocated_storage = 20
+
+  storage_type = "standard"
+
+  availability_zone = "eu-west-3a"
+
+  backup_retention_period = 7
+  backup_window           = "00:00-01:00"
+
+}
+```
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
